@@ -8,10 +8,10 @@ public record DadosSerie(@JsonAlias("Title") String titulo,
                          @JsonAlias("totalSeasons") Integer totalTemporadas,
                          @JsonAlias("imdbRating") String avaliacao) {
 
-    @Override
-    public String toString() {
-        return  "\nTitulo: " + titulo +
-                "\nTotal de temporadas: " + totalTemporadas +
-                "\nAvaliacao: " + avaliacao;
-    }
+//    @Override
+//    public String toString() {
+//        return  "\nTitulo: " + titulo +
+//                "\nTotal de temporadas: " + totalTemporadas +
+//                "\nAvaliacao: " + avaliacao;
+//    }
 }
